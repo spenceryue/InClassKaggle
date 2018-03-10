@@ -1,0 +1,3 @@
+{'eval_metric': ['logloss', 'auc'], 'scale_pos_weight': 0.072067242747174992, 'eta': 0.01, 'objective': 'binary:logistic', 'tree_method': 'hist', 'max_depth': 10}
+
+{'evals': [(<xgboost.core.DMatrix object at 0x00000000199DADA0>, 'train'), (<xgboost.core.DMatrix object at 0x00000000160EB630>, 'test')], 'num_boost_round': 3000, 'early_stopping_rounds': 200, 'verbose_eval': 50}

@@ -1,0 +1,23 @@
+test-auc-mean                    0.869017
+test-auc-std                   0.00652896
+train-auc-mean                   0.919198
+train-auc-std                  0.00228007
+Best Iteration                       3000
+base_score                       0.932777
+colsample_bylevel                     0.5
+colsample_bytree                      0.5
+eta                                  0.01
+eval_metric                           auc
+gamma                                   0
+lambda                                  2
+max_depth                               8
+min_child_weight                        0
+objective                 binary:logistic
+scale_pos_weight                0.0720672
+tree_method                          hist
+Underestimate Test AUC           0.862488
+Name: 5, dtype: object
+
+{'colsample_bytree': 0.5, 'eval_metric': 'auc', 'colsample_bylevel': 0.5, 'scale_pos_weight': 0.072067242747174992, 'base_score': 0.93277731109244366, 'eta': 0.01, 'min_child_weight': 0, 'objective': 'binary:logistic', 'tree_method': 'hist', 'max_depth': 8, 'gamma': 0, 'lambda': 2}
+
+Trained with: transformedX_unskew_exclude_allX

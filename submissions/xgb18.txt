@@ -1,0 +1,20 @@
+Test Error                  0.873099
+Best Iteration                  2942
+base_score                  0.932777
+booster                         dart
+colsample_bylevel                0.5
+colsample_bytree                 0.5
+eta                             0.01
+eval_metric                      auc
+gamma                              1
+lambda                             1
+max_depth                         16
+min_child_weight                   0
+objective            binary:logistic
+scale_pos_weight           0.0720672
+subsample                          1
+Name: 130, dtype: object
+
+{'colsample_bytree': 0.5, 'eval_metric': 'auc', 'colsample_bylevel': 0.5, 'scale_pos_weight': 0.072067242747174992, 'base_score': 0.93277731109244366, 'subsample': 1, 'eta': 0.01, 'min_child_weight': 0, 'objective': 'binary:logistic', 'lambda': 1, 'max_depth': 16, 'gamma': 1, 'booster': 'dart'}
+
+Trained with: transformedX_unskew_exclude_allX

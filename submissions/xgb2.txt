@@ -1,0 +1,21 @@
+    boost_params = {
+        'objective': 'binary:logistic',
+#         'tree_method': 'gpu_hist',
+        'tree_method': 'hist',
+        'eta': .1,
+        'max_depth': 6,
+        'eval_metric': ['auc', 'logloss'],
+#         'eval_metric': ['logloss', 'auc'],
+#         'scale_pos_weight': (train['Y'] == 1).sum() /1.0/ (train['Y'] == 0).sum(),
+        'base_score': (train['Y'] == 0).sum() /1.0/ train.shape[0]
+    }
+
+    evals_result = {}
+
+    train_params = {
+        'num_boost_round': 3000,
+        'evals': [(data, 'train'), (data_test, 'test')],
+        'early_stopping_rounds': 200,
+        'evals_result': evals_result,
+        'verbose_eval':50,
+    }

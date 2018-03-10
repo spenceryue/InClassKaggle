@@ -1,0 +1,20 @@
+Test Error                  0.873577
+Best Iteration                  1102
+base_score                  0.932777
+booster                       gbtree
+colsample_bylevel                0.5
+colsample_bytree                 0.5
+eta                              0.1
+eval_metric                      auc
+gamma                              1
+lambda                             2
+max_depth                         16
+min_child_weight                   0
+objective            binary:logistic
+scale_pos_weight           0.0720672
+subsample                          1
+Name: 47, dtype: object
+
+{'colsample_bytree': 0.5, 'eval_metric': 'auc', 'colsample_bylevel': 0.5, 'scale_pos_weight': 0.072067242747174992, 'base_score': 0.93277731109244366, 'subsample': 1, 'eta': 0.1, 'min_child_weight': 0, 'objective': 'binary:logistic', 'lambda': 2, 'max_depth': 16, 'gamma': 1, 'booster': 'gbtree'}
+
+Trained with: transformedX_unskew_exclude_allX

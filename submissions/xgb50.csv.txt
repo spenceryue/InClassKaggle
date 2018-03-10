@@ -1,0 +1,11 @@
+                            38
+Underestimate Test    0.854017
+Overestimate Test     0.884518
+test-auc-mean         0.857988
+test-auc-std        0.00198534
+train-auc-mean        0.882148
+train-auc-std       0.00118484
+Best Iteration              56
+
+Metadata:
+allX
