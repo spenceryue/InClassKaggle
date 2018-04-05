@@ -520,11 +520,12 @@
 	"buffers":
 	[
 		{
-			"file": "test_final.csv",
+			"file": "/C/Users/spenc/OneDrive/Programming/hand_log.txt",
 			"settings":
 			{
-				"buffer_size": 4868341,
-				"line_ending": "CR"
+				"buffer_size": 3446,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -647,6 +648,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"del",
+				"File: Delete"
+			],
 			[
 				"java",
 				"Set Syntax: Java"
@@ -1154,13 +1159,9 @@
 			[
 				"ssc++",
 				"Set Syntax: C++"
-			],
-			[
-				"renma",
-				"File: Rename"
 			]
 		],
-		"width": 816.0
+		"width": 831.0
 	},
 	"console":
 	{
@@ -1312,6 +1313,13 @@
 	],
 	"file_history":
 	[
+		"/C/Users/spenc/OneDrive/Documents/Spring 2018/batch_notes.txt",
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/spenceryue.me/index.html",
+		"/C/Users/spenc/AppData/Local/Temp/Temp1_cudnn-9.0-windows10-x64-v7.1.zip/cuda/NVIDIA_SLA_cuDNN_Support.txt",
+		"/C/Users/spenc/OneDrive/Documents/Fall 2017/379K/class_kaggle/.gitignore",
+		"/C/Users/spenc/OneDrive/Documents/Fall 2017/379K/class_kaggle/.gitattributes",
+		"/C/Users/spenc/OneDrive/Documents/Fall 2017/379K/class_kaggle/display.py",
+		"/C/Users/spenc/OneDrive/Documents/Fall 2017/379K/class_kaggle/test.py",
 		"/C/Users/spenc/OneDrive/Programming/hand_log.txt",
 		"/C/Users/spenc/OneDrive/Programming/apps to make.txt",
 		"/C/Users/spenc/OneDrive/Documents/Spring 2018/351M/NNetTraining.py",
@@ -1432,14 +1440,7 @@
 		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/a race against time/custom0.txt.expected",
 		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/a race against time/custom3.txt.expected",
 		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/a race against time/sample0.txt.expected",
-		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/ways to give a check/custom1.txt",
-		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/ways to give a check/custom1.txt.expected",
-		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/ways to give a check/custom0.txt",
-		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/ways to give a check/soln.py",
-		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/ways to give a check/sample0.txt.expected",
-		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/ways to give a check/sample0.txt",
-		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/ways to give a check/custom0.txt.expected",
-		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/hr26/Cloudy Day/soln.py"
+		"/C/Users/spenc/OneDrive/Documents/Winter 2017/hackerrank/w36/ways to give a check/custom1.txt"
 	],
 	"find":
 	{
@@ -1462,6 +1463,8 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"L_i",
+			"W_i",
 			"ConcurrentHashMap",
 			"/c",
 			"HEADER_SIZE",
@@ -1587,9 +1590,7 @@
 			"st",
 			"sc",
 			"} ",
-			" {",
-			"\\S\\(",
-			"( "
+			" {"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1612,19 +1613,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "test_final.csv",
-					"semi_transient": true,
+					"file": "/C/Users/spenc/OneDrive/Programming/hand_log.txt",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4868341,
+						"buffer_size": 3446,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								4868341
+								760,
+								796
 							]
 						],
 						"settings":
@@ -1633,7 +1634,7 @@
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 82.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1698,6 +1699,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"attri",
+				".gitattributes"
+			],
 			[
 				"input",
 				"EE360P_hw3\\input.txt"
@@ -2205,10 +2210,6 @@
 			[
 				"blur",
 				"web\\c\\blur_filter.c"
-			],
-			[
-				"memory",
-				"web\\js\\memory.js"
 			]
 		],
 		"width": 0.0
